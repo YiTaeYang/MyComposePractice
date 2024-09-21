@@ -10,7 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.mycomposepractice.firstPractice.FirstFunction
+import com.example.mycomposepractice.firstPractice.FirstFun
 import com.example.mycomposepractice.ui.theme.MyComposePracticeTheme
 
 
@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    FirstFunction()
+                    FirstFun()
                 }
             }
         }
@@ -43,6 +43,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     MyComposePracticeTheme {
-        FirstFunction()
+        FirstFun()
     }
 }
